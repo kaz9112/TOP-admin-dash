@@ -3,9 +3,21 @@ body {
 }
 
 .menu-section {
-    background-color: rgb(47, 206, 255);
+    background-color: rgb(44, 161, 230);
+    display: flex;
+    flex-direction: column;
     width: 20vw;
     height: 100vh;
+}
+
+.menu-section > div {
+    display: flex;
+    color: white;
+}
+
+.menu-item {
+    display: flex;
+    color: white;
 }
 
 .main {
