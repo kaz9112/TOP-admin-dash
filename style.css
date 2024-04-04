@@ -12,6 +12,7 @@ body {
 
 .menu-section > div {
     display: flex;
+    flex-direction: column;
     color: white;
 }
 
