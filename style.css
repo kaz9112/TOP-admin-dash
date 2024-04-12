@@ -64,6 +64,20 @@ body {
 .top-upper {
     display: flex;
     height: 33%;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.top-upper > img:nth-child(2n - 1) {
+    width: 28px;
+    height: 28px;
+}
+
+.top-upper > img:nth-child(4) {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
 }
 
 .search-input {
@@ -71,7 +85,7 @@ body {
     border: 0;
     border-radius: 20px; /* Adjust the value to change the roundness */
     padding: 8px 12px;
-    width: 200px;
+    width: 400px;
     outline: none;
 }
 
