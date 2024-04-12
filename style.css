@@ -67,16 +67,23 @@ body {
     align-items: center;
     padding-left: 50px;
     padding-right: 50px;
+    justify-content: space-between;
 }
 
-.top-upper > img:nth-child(2n - 1) {
+.top-upper > div {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.top-upper img:nth-child(1) {
     width: 28px;
     height: 28px;
 }
 
-.top-upper > img:nth-child(4) {
-    width: 40px;
-    height: 40px;
+.top-upper img:nth-child(2) {
+    width: 45px;
+    height: 45px;
     border-radius: 50%;
 }
 
@@ -85,7 +92,8 @@ body {
     border: 0;
     border-radius: 20px; /* Adjust the value to change the roundness */
     padding: 8px 12px;
-    width: 400px;
+    height: 2.5vh;
+    width: 40vw;
     outline: none;
 }
 
