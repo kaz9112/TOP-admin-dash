@@ -99,8 +99,23 @@ body {
 
 .top-lower {
     display: flex;
-    background-color: rgb(0, 183, 255);
+    background-color: rgb(255, 255, 255);
     height: 67%;
+}
+
+.top-lower div:first-child {
+    display:flex;
+}
+
+.top-lower img {
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+}
+
+.top-lower div:first-child div {
+    display:flex;
+    flex-direction: column;
 }
 
 .main-bottom {
