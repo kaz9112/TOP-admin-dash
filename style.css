@@ -63,7 +63,7 @@ body {
 
 .top-upper {
     display: flex;
-    height: 33%;
+    height: 35%;
     align-items: center;
     padding-left: 50px;
     padding-right: 50px;
@@ -100,7 +100,7 @@ body {
 .top-lower {
     display: flex;
     background-color: rgb(255, 255, 255);
-    height: 60%;
+    height: 65%;
     justify-content: space-between;
     align-items: center;
 }
