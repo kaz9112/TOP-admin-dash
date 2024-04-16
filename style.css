@@ -182,6 +182,15 @@ body {
     height: 50%;
 }
 
+.announcement-flex {
+    background-color: white;
+    border-radius: 5%;
+    margin-left: 20px;
+    width: 60%;
+    height: 75%;
+    font-size: 0.8rem;
+}
+
 .side-bottom-lower {
     background-color: rgba(0, 0, 0, 0.479);
     width: 100%;
