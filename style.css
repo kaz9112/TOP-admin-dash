@@ -157,6 +157,10 @@ body {
     width: 80vw;
 }
 
+.main-bottom h3 {
+    font-size: 1.3rem;
+}
+
 .grid-container {
     background-color: rgb(222, 231, 180);
     width: 70%;
