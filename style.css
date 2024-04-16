@@ -5,6 +5,9 @@ body {
     margin: 0;
 }
 
+
+/*!!!!!!!!!!!!!! menu-section !!!!!!!!!!!!!!!!!!*/
+
 .menu-section {
     background-color: rgb(37, 154, 223);
     display: flex;
@@ -47,6 +50,8 @@ body {
     margin-right: 34px;
     
 }
+
+/*!!!!!!!!!!!!!!!!!!!! main section !!!!!!!!!!!!!!!!*/
 
 .main {
     display: flex;
