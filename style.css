@@ -201,11 +201,10 @@ body {
 
 hr {
     border: none;
-    border-top: 3px double #dadada;
-    color: #dadada;
+    border-top: 1px solid #dadada;
     overflow: visible;
     text-align: center;
-    height: 5px;
+    width: 85%;
   }
 
 .side-bottom-lower {
