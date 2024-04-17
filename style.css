@@ -193,10 +193,17 @@ body {
     font-size: 0.83rem;
     padding: 10px 15px 10px 15px;
     justify-content: space-around;
+    align-items: center;
 }
 
 .announcement-flex h4 {
-    margin: 0;
+    margin: auto 0;
+}
+
+.announcement-flex > div:nth-child(2n+1) {
+    display: flex;
+    flex-direction: column;
+    width: 82%;
 }
 
 hr {
@@ -204,7 +211,7 @@ hr {
     border-top: 1px solid #dadada;
     overflow: visible;
     text-align: center;
-    width: 85%;
+    width: 10.5vw;
   }
 
 .side-bottom-lower {
