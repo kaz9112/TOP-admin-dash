@@ -191,13 +191,22 @@ body {
     width: 50%;
     height: 75%;
     font-size: 0.83rem;
-    padding: 10px 15px 20px 15px;
+    padding: 10px 15px 10px 15px;
     justify-content: space-around;
 }
 
 .announcement-flex h4 {
     margin: 0;
 }
+
+hr {
+    border: none;
+    border-top: 3px double #dadada;
+    color: #dadada;
+    overflow: visible;
+    text-align: center;
+    height: 5px;
+  }
 
 .side-bottom-lower {
     background-color: rgba(0, 0, 0, 0.479);
