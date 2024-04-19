@@ -176,24 +176,19 @@ body {
 
 .your-project-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    flex-direction: column;
-    border-radius: 3%;
-    margin-left: 20px;
+    grid-template-columns: repeat(2, 1fr); /* Two equal-width columns */
+    row-gap: 20px;
+    column-gap: 20px;
+    padding-left: 20px;
     width: 90%;
     height: 90%;
-    font-size: 0.75rem;
-    padding: 10px 15px 10px 15px;
-    justify-content: space-around;
-    align-items: center;
 }
 
 .your-project-grid div {
     background-color: white;
     border-radius: 3%;
-    margin-left: 20px;
-    width: 250px;
-    height: 180px;
+    width: 510px;
+    height: 350px;
 }
 
 .side {
