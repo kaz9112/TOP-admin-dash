@@ -185,8 +185,9 @@ body {
 .your-project-grid div {
     background-color: white;
     border-radius: 3%;
-    width: 510px;
+    width: 95%;
     height: 350px;
+    min-width: 510px;
 }
 
 .side {
