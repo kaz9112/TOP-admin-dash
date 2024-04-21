@@ -202,6 +202,9 @@ body {
     margin: 0 40px;
 }
 
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!! SIDE !!!!!!!!!!!!!!!!!! */
+
 .side {
     display: flex;
     flex-direction: column;
@@ -237,6 +240,10 @@ body {
 
 .announcement-flex h4 {
     margin: auto 0;
+}
+
+.announcement-flex p {
+    color: rgb(80, 80, 80);
 }
 
 .announcement-flex > div:nth-child(2n+1) {
