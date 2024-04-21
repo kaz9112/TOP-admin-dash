@@ -183,11 +183,23 @@ body {
 }
 
 .your-project-grid div {
+    display: flex;
+    flex-direction: column;
     background-color: white;
     border-radius: 3%;
     width: 95%;
     height: 350px;
     min-width: 510px;
+    font-size: 1.2rem;
+}
+
+.your-project-grid h4 {
+    margin: 70px 40px 0 40px;
+}
+
+.your-project-grid p {
+    color: rgb(80, 80, 80);
+    margin: 0 40px;
 }
 
 .side {
