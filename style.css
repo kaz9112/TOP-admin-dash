@@ -204,7 +204,10 @@ body {
 
 .your-project-grid > div > div {
     display: flex;
-    
+    justify-content: end;
+    margin-top: 70px;
+    margin-right: 40px;
+    gap: 15px;
 }
 
 .your-project-grid > div > div img {
