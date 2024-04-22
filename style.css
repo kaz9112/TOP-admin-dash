@@ -182,7 +182,7 @@ body {
     height: 90%;
 }
 
-.your-project-grid div {
+.your-project-grid > div {
     display: flex;
     flex-direction: column;
     background-color: white;
@@ -200,6 +200,16 @@ body {
 .your-project-grid p {
     color: rgb(80, 80, 80);
     margin: 0 40px;
+}
+
+.your-project-grid > div > div {
+    display: flex;
+    
+}
+
+.your-project-grid > div > div img {
+    width: 28px;
+    height: 28px;
 }
 
 
